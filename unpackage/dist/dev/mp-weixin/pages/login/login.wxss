@@ -1,0 +1,91 @@
+
+.content {
+	background: #3F536E;
+	width: 100vw;
+	height: 100vh;
+}
+.logodiv{
+	width: 100vw;
+	height: 30vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align:end;
+	-webkit-align-items:flex-end;
+	        align-items:flex-end;
+}
+.logo{
+	width: 200rpx;
+	height: 200rpx;
+	overflow: hidden;
+}
+.logo .imglogo{
+	width: 100%;
+}
+.form{
+	padding: 0 100rpx;
+	margin-top: 80rpx;
+}
+.username{
+	width: 100%;
+	height: 60rpx;
+	background: white;
+	border-radius: 20rpx;
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	margin-top: 25rpx;
+}
+.username .nameform{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 25rpx;
+}
+.password{
+	width: 100%;
+	height: 60rpx;
+	background: white;
+	border-radius: 20rpx;
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	margin-top: 25rpx;
+}
+.password .pawform{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 25rpx;
+}
+.loginBtn{
+	width: 100%;
+	height: 60rpx;
+	background: #007cb1;
+	border-radius: 50rpx;
+	margin-top: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.loginBtn .btnvalue{
+	color: white;
+}
+.registBtn{
+	text-align: center;
+	color: #007cb1;
+	font-size: 25rpx;
+	margin-top: 20rpx;
+}
+.loginBtnhover{
+	background: #3e3e5d;
+}
+
+
